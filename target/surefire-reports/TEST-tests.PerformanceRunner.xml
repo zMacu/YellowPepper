@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.PerformanceRunner" time="1.176" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/magaligonzalez/Documents/projects/YellowPepper/target/test-classes:/Users/magaligonzalez/Documents/projects/YellowPepper/target/classes:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-java/7.11.0/cucumber-java-7.11.0.jar:/Users/magaligonzalez/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-junit/7.11.0/cucumber-junit-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-core/7.11.0/cucumber-core-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-gherkin/7.11.0/cucumber-gherkin-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.0/cucumber-gherkin-messages-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-expressions/16.1.1/cucumber-expressions-16.1.1.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/datatable/7.11.0/datatable-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-plugin/7.11.0/cucumber-plugin-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/docstring/7.11.0/docstring-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/gherkin/26.0.0/gherkin-26.0.0.jar:/Users/magaligonzalez/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4/jackson-databind-2.13.4.jar:/Users/magaligonzalez/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar:/Users/magaligonzalez/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar:/Users/magaligonzalez/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/magaligonzalez/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/magaligonzalez/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/magaligonzalez/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/magaligonzalez/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/magaligonzalez/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/magaligonzalez/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/magaligonzalez/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/magaligonzalez/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/magaligonzalez/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/magaligonzalez/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/magaligonzalez/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/magaligonzalez/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/magaligonzalez/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/magaligonzalez/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/magaligonzalez/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/magaligonzalez/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:"/>
+    <property name="java.vm.vendor" value="Temurin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="AR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/magaligonzalez/Documents/projects/YellowPepper/target/surefire/surefirebooter8208802744338880501.jar /Users/magaligonzalez/Documents/projects/YellowPepper/target/surefire 2024-10-19T14-53-52_002-jvmRun1 surefire883444408633606374tmp surefire_02759458536041221679tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="test" value="PerformanceRunner"/>
+    <property name="surefire.test.class.path" value="/Users/magaligonzalez/Documents/projects/YellowPepper/target/test-classes:/Users/magaligonzalez/Documents/projects/YellowPepper/target/classes:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-java/7.11.0/cucumber-java-7.11.0.jar:/Users/magaligonzalez/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-junit/7.11.0/cucumber-junit-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-core/7.11.0/cucumber-core-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-gherkin/7.11.0/cucumber-gherkin-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.0/cucumber-gherkin-messages-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-expressions/16.1.1/cucumber-expressions-16.1.1.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/datatable/7.11.0/datatable-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/cucumber-plugin/7.11.0/cucumber-plugin-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/docstring/7.11.0/docstring-7.11.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/magaligonzalez/.m2/repository/io/cucumber/gherkin/26.0.0/gherkin-26.0.0.jar:/Users/magaligonzalez/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4/jackson-databind-2.13.4.jar:/Users/magaligonzalez/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar:/Users/magaligonzalez/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar:/Users/magaligonzalez/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/magaligonzalez/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/magaligonzalez/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/magaligonzalez/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/magaligonzalez/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/magaligonzalez/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/magaligonzalez/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/magaligonzalez/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/magaligonzalez/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/magaligonzalez/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/magaligonzalez/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/magaligonzalez/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/magaligonzalez/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/magaligonzalez/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/magaligonzalez/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/magaligonzalez/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/magaligonzalez/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/magaligonzalez"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/magaligonzalez/Documents/projects/YellowPepper"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/magaligonzalez/Documents/projects/YellowPepper/target/surefire/surefirebooter8208802744338880501.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_422-b05"/>
+    <property name="user.name" value="magaligonzalez"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.0.1"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/magaligonzalez/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/41/d9wtv7lx0y59l5ct7t9yxcrm0000gn/T/"/>
+    <property name="java.version" value="1.8.0_422"/>
+    <property name="user.dir" value="/Users/magaligonzalez/Documents/projects/YellowPepper"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/magaligonzalez/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Temurin"/>
+    <property name="java.vm.version" value="25.422-b05"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="java.ext.dirs" value="/Users/magaligonzalez/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Create pets and test performance" classname="API Performance Test for Pet Store" time="0.25">
+    <error message="k6 test failed" type="java.lang.RuntimeException">java.lang.RuntimeException: k6 test failed
+</error>
+    <system-out><![CDATA[
+Scenario: Create pets and test performance          &amp#27;[90m# src/test/resources/features/performance/performanceTest.feature:3&amp#27;[0m
+API is available
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe API is available&amp#27;[0m                        &amp#27;[90m# steps_definitions.performance.ApiPerformanceTestSteps.the_api_is_available()&amp#27;[0m
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+time="2024-10-19T14:53:53-03:00" level=error msg="The moduleSpecifier \"src/test/k6scripts/create_pets_test.js\" couldn't be found on local disk. Make sure that you've specified the right path to the file. If you're running k6 using the Docker image make sure you have mounted the local directory (-v /local/path/:/inside/docker/path) containing your script and modules so that they're accessible by k6 from inside of the container, see https://grafana.com/docs/k6/latest/using-k6/modules/#using-local-modules-with-docker."
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI run k6 test for creating &amp#27;[0m&amp#27;[31m&amp#27;[1m1000&amp#27;[0m&amp#27;[31m pets&amp#27;[0m         &amp#27;[90m# steps_definitions.performance.ApiPerformanceTestSteps.i_run_k6_test_for_creating_pets(int)&amp#27;[0m
+      &amp#27;[31mjava.lang.RuntimeException: k6 test failed
+	at steps_definitions.performance.ApiPerformanceTestSteps.i_run_k6_test_for_creating_pets(ApiPerformanceTestSteps.java:33)
+	at ✽.I run k6 test for creating 1000 pets(file:///Users/magaligonzalez/Documents/projects/YellowPepper/src/test/resources/features/performance/performanceTest.feature:5)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI generate a report for the performance test&amp#27;[0m &amp#27;[90m# steps_definitions.performance.ApiPerformanceTestSteps.i_generate_a_report_for_the_performance_test()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Update many pets concurrently" classname="API Performance Test for Pet Store" time="0.051">
+    <error message="The step &apos;I update 1000 pets&apos; and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@When(&quot;I update {int} pets&quot;)&#10;public void i_update_pets(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;the response time should be under {int} ms&quot;)&#10;public void the_response_time_should_be_under_ms(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: 
+The step 'I update 1000 pets' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("I update {int} pets")
+public void i_update_pets(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the response time should be under {int} ms")
+public void the_response_time_should_be_under_ms(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+Scenario: Update many pets concurrently         &amp#27;[90m# src/test/resources/features/performance/performanceTest.feature:8&amp#27;[0m
+API is available
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe API is available&amp#27;[0m                    &amp#27;[90m# steps_definitions.performance.ApiPerformanceTestSteps.the_api_is_available()&amp#27;[0m
+  &amp#27;[33mWhen &amp#27;[0m&amp#27;[33mI update 1000 pets&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe response time should be under 200 ms&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+tests/PerformanceRunner.class
+steps_definitions/automation/ApiTestSteps.class
+steps_definitions/performance/ApiPerformanceTestSteps.class
+tests/PetStoreTest.class
+tests/AutomationRunner.class

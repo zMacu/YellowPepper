@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: tests.PerformanceRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.176 s <<< FAILURE! - in tests.PerformanceRunner
+Create pets and test performance(API Performance Test for Pet Store)  Time elapsed: 0.25 s  <<< ERROR!
+java.lang.RuntimeException: k6 test failed
+
+Update many pets concurrently(API Performance Test for Pet Store)  Time elapsed: 0.051 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I update 1000 pets' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("I update {int} pets")
+public void i_update_pets(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the response time should be under {int} ms")
+public void the_response_time_should_be_under_ms(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
