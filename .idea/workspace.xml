@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb6449f8-3308-4c20-84c1-ee4698dc6af4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/AutomationRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/PerformanceRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps_definitions/automation/ApiTestSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps_definitions/performance/ApiPerformanceTestSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps_definitions/tests/PetStoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/k6_scripts/createPet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/k6_scripts/updatePets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/automation/automationTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/performance/performanceTest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_test_automation/yellow-api/src/main/java/PetStoreTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_test_automation/yellow-api/src/main/java/resources/features.api/yellowPepperTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/k6_scripts/deletePet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YellowPepper-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/k6_scripts/updatePets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/k6_scripts/updatePets.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
