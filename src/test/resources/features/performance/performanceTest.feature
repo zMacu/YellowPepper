@@ -1,41 +1,21 @@
-Feature: API Performance Test for Pet Store
+Feature: Performance testing for Petstore API
 
-  Scenario: Create multiple pets successfully
-    Given I create a new pet with name "Fluffy" and status "available"
-    When I run k6 test for creating 10 pets
-    Then the response status should be 200
+  @Performance
+  Scenario: Create multiple pets with a given name and status
+    Given I run k6 test for creating 1000 pets with name "Fluffy" and status "available"
 
-  Scenario: Create pet with duplicate name
-    Given I create a new pet with name "Fluffy" and status "available"
-    When I run k6 test for creating 10 pets with the same name
-    Then the response status should be 400
+  @Performance
+  Scenario: Update multiple pets' status to "sold"
+    Given I run k6 test for updating 1000 pets to status "sold"
 
-  Scenario: Create pet without required fields
-    Given I create a new pet without a name
-    When I run k6 test for creating 1 pet
-    Then the response status should be 400
+  @Performance
+  Scenario: Delete multiple pets by ID
+    Given I run k6 test for deleting 500 pets
 
-  Scenario: Update existing pet's status
-    Given I create a new pet with name "Fluffy" and status "available"
-    When I update the pet with ID 1 to have status "sold"
-    Then the response status should be 200
+  @Performance @EdgeCase
+  Scenario: Create multiple pets without a name (Edge case)
+    Given I run k6 test for creating 500 pets without a name
 
-  Scenario: Update a pet that does not exist
-    Given I attempt to update a pet with an invalid ID
-    When I run k6 test for updating 1 pet
-    Then the response status should be 404
-
-  Scenario: Update pet with invalid data
-    Given I create a new pet with name "Fluffy" and status "available"
-    When I update the pet with ID 1 to have an invalid status
-    Then the response status should be 400
-
-  Scenario: Delete existing pet
-    Given I create a new pet with name "Fluffy" and status "available"
-    When I delete the pet with ID 1
-    Then the response status should be 200
-
-  Scenario: Delete a pet that does not exist
-    Given I attempt to delete a pet with an invalid ID
-    When I run k6 test for deleting 1 pet
-    Then the response status should be 404
+  @Performance @EdgeCase
+  Scenario: Update pets with invalid IDs (Edge case)
+    Given I run k6 test for updating 500 pets with invalid IDs

@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb6449f8-3308-4c20-84c1-ee4698dc6af4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/k6_scripts/updatePets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/k6_scripts/updatePets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps_definitions/automation/ApiTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps_definitions/automation/ApiTestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps_definitions/performance/ApiPerformanceTestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps_definitions/performance/ApiPerformanceTestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/k6_scripts/deletePet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/k6_scripts/deletePet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/automation/automationTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/automation/automationTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/performance/performanceTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/performance/performanceTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.PerformanceRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.PerformanceRunner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/performance/performanceTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/performance/performanceTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps_definitions/performance/ApiPerformanceTestSteps.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

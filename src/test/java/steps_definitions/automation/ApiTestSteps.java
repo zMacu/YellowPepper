@@ -25,11 +25,6 @@ public class ApiTestSteps {
         petId = 101; // Set to the ID used in createPet
     }
 
-    @Then("the pet's name in the response should be {string}")
-    public void the_pet_name_in_response_should_be(String expectedName) {
-        response.then().body("name", equalTo(expectedName));
-    }
-
     @Given("I get the pet by ID {int}")
     public void i_get_the_pet_by_id(int petId) {
         response = petStoreTest.getPetById(petId);
@@ -100,5 +95,10 @@ public class ApiTestSteps {
     @Given("I try to delete an order that does not exist")
     public void i_try_to_delete_an_order_that_does_not_exist() {
         response = petStoreTest.deleteOrder(999); // Non-existent ID
+    }
+
+    @Then("the pet's name in the response should be {string}")
+    public void the_pet_name_in_response_should_be(String expectedName) {
+        response.then().body("name", equalTo(expectedName));
     }
 }
